@@ -61,13 +61,12 @@ def hip_waist_ratio(data):
     return lst
 
 
-#calculate relation
-def correlations(data, y, xs):
-    rs = []
-    rhos = []
-    for x in xs:
-        r = stats.pearsonr(data[y], data[x])[0]
-        rs.append(r)
-        rho = stats.spearmanr(data[y], data[x])[0]
-        rhos.append(rho)
-    return pd.DataFrame({"feature": xs, "r": rs, "rho": rhos})
+#bootstrap resampling
+np.random.seed(1234)
+def bootstrap( data,m, n,):
+    result = []
+    for i in range( n):
+        xs = np.random.choice(data, m, replace = True)
+        m1 = np.mean( xs)
+        result.append( m1)
+    return result
