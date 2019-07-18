@@ -16,8 +16,8 @@ Listed below are the companies where data was indirectly taken from.
     - [Problem statement](#Problem-statement)
     - [Dataset](#Dataset)
 - [Analysis](#Analysis)
-    - [Data cleaning](#Data-Cleaning)
-    - [Exploratory data analysis](#Exploratory-data-analysis)
+    - [Data Cleaning](#Data-Cleaning)
+    - [Exploratory Data Analysis](#Exploratory-data-analysis)
 - [Responsibilties](#Responsibilities)
 - [Summary of Files](#Files-summary)
 
@@ -30,7 +30,7 @@ This data includes [Rent The Runway](https://www.renttherunway.com/) data and [M
 
 ## Analysis
 
-### Data-Cleaning
+### Data Cleaning
 Files were very clean directly from Kaggle. 
 For example, in Rent The Runway (RTR) file, less than 2\% of values from the columns explored were ```NaN``` types. 
 There were several features engineering steps, however. 
