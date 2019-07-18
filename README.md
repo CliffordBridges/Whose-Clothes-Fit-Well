@@ -35,4 +35,10 @@ Files were very clean directly from Kaggle.
 For example, in Rent The Runway (RTR) file, less than 2\% of values from the columns explored were ```NaN``` types. 
 There were several features engineering steps, however. 
 For example, the values in the column, ```bust size```, were strings, from which we created two columns ```band_size``` and ```cup_size``` where ```band_size``` values were ints and ```cup_size``` values were strings. 
-All cleaning is described in the RTR_DataCleaning notebook.
+All cleaning is described in the RTR_DataCleaning notebook. 
+The cleaned files ([cleaned RTR data](rtr_clean.csv) and [cleaned ModCloth data](modcloth_finaldata.json)) were the final data sets used for analysis.
+
+### Exploratory Data Analysis
+The [Tecnical Notebook](Technical_Notebook.ipynb) contains all of the analysis for both data sets. 
+Note that the technical notebook comments out the lines used to save the figures produced as a separate file. 
+The reader can uncomment to save the figure locally.
