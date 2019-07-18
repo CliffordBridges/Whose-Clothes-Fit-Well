@@ -7,7 +7,7 @@ The goal of this project is to perform tests and identify statistical significan
 Listed below are the companies where data was indirectly taken from. 
 (Data sets were retreived from kaggle) 
 
-![Rent_the_Runway](rtr_logo.jpg)
+![Rent_the_Runway](rtr_logo.jpeg)
 ![Modcloth](modcloth.png)
 
 ## Contents
