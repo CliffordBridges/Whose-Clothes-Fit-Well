@@ -1,4 +1,4 @@
-# Whos-Clothes-Fit-Well
+# Whose-Clothes-Fit-Well
 ## Team members: [Clifford Bridges](https://github.com/CliffordBridges) and [Allan Kim](https://github.com/allankim4)
 
 ## Executive summary:
