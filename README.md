@@ -87,8 +87,8 @@ We adjusted the table as follows:
 
 |Health Risk|Men|Women|
 |---|---|---|
-|Low|lower than 0.96|lower than 0.80|
-|Moderate|0.96 - 1.0|0.80 - 0.85|
+|Low|lower than 0.95|lower than 0.80|
+|Moderate|0.95 - 1.0|0.80 - 0.85|
 |High|higher than 1.0|higher than 0.85|
 
 The data in each case were not normally distributed, so we used bootstrapping to create sampling distributions that were closer to normal. 
