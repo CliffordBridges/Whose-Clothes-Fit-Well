@@ -7,8 +7,8 @@ The goal of this project is to perform tests and identify statistical significan
 Listed below are the companies where data was indirectly taken from. 
 (Data sets were retreived from kaggle) 
 
-![Rent_the_Runway](rtr_logo.jpeg)
-![Modcloth](modcloth.png)
+![Rent_the_Runway](images/rtr_logo.jpeg)
+![Modcloth](images/modcloth.png)
 
 ## Contents
 
@@ -35,6 +35,7 @@ Files were very clean directly from Kaggle.
 For example, in Rent The Runway (RTR) file, less than 2\% of values from the columns explored were ```NaN``` types. 
 There were several features engineering steps, however. 
 For example, the values in the column, ```bust size```, were strings, from which we created two columns ```band_size``` and ```cup_size``` where ```band_size``` values were ints and ```cup_size``` values were strings. 
+<<<<<<< HEAD
 All cleaning is described in the RTR_DataCleaning notebook.
 
 ### Statistical Tests
@@ -46,3 +47,12 @@ Two tailed test were conducted in the modcloth data sets. The distribution of th
 With two datasets for this project, We decided to assign each a dataset and conduct our own test and exploration. Throught out the testing and exploration of the data, the workloads were similar aside from subject matter expert advise/insight burden was given to Clifford.
 
 The presentation file was a joint combined effort.
+=======
+All cleaning is described in the RTR_DataCleaning notebook. 
+The cleaned files ([cleaned RTR data](rtr_clean.csv) and [cleaned ModCloth data](modcloth_finaldata.json)) were the final data sets used for analysis.
+
+### Exploratory Data Analysis
+The [Tecnical Notebook](Technical_Notebook.ipynb) contains all of the analysis for both data sets. 
+Note that the technical notebook comments out the lines used to save the figures produced as a separate file. 
+The reader can uncomment to save the figure locally.
+>>>>>>> afceb7a031822dd830b72c4150d6715e3a4f02d5
