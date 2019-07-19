@@ -36,7 +36,6 @@ Files were very clean directly from Kaggle.
 For example, in Rent The Runway (RTR) file, less than 2\% of values from the columns explored were ```NaN``` types. 
 There were several features engineering steps, however. 
 For example, the values in the column, ```bust size```, were strings, from which we created two columns ```band_size``` and ```cup_size``` where ```band_size``` values were ints and ```cup_size``` values were strings. 
-<<<<<<< HEAD
 All cleaning is described in the RTR_DataCleaning notebook.
 
 
@@ -52,7 +51,8 @@ Two tailed test were conducted in the modcloth data sets. The distribution of th
 
 ## Responsibilities
 
-With two datasets for this project, We decided to assign each a dataset and conduct our own test and exploration. Throught out the testing and exploration of the data, the workloads were similar aside from subject matter expert advise/insight burden was given to Clifford.
+With two datasets for this project, We decided to assign each a dataset and conduct our own test and exploration. 
+Throughout the testing and exploration of the data, the workloads were similar aside from subject matter expert advise/insight burden was given to Clifford.
 
 The presentation file was a joint combined effort.
 
@@ -63,5 +63,3 @@ The cleaned files ([cleaned RTR data](rtr_clean.csv) and [cleaned ModCloth data]
 Images folder contains images used for the presentation which were created from the EDA and Resampling.
 
 RTR_DataCleaning notebook entails the process of cleaning the data.
-
->>>>>>> afceb7a031822dd830b72c4150d6715e3a4f02d5
