@@ -60,5 +60,8 @@ The presentation file was a joint combined effort.
 
 The cleaned files ([cleaned RTR data](rtr_clean.csv) and [cleaned ModCloth data](modcloth_finaldata.json)) were the final data sets used for analysis.
 
+Images folder contains images used for the presentation which were created from the EDA and Resampling.
+
+RTR_DataCleaning notebook entails the process of cleaning the data.
 
 >>>>>>> afceb7a031822dd830b72c4150d6715e3a4f02d5
