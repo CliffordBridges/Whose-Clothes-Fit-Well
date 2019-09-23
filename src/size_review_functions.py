@@ -118,7 +118,7 @@ def bootstrap(data, m, n,):
     np.random.seed(1234)
     result = []
     for i in range(n):
-    xs = np.random.choice(data, m, replace = True)
+        xs = np.random.choice(data, m, replace = True)
         m1 = np.mean(xs)
         result.append(m1)
     return result
