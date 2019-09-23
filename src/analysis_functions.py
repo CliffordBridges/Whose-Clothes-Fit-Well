@@ -1,21 +1,24 @@
 import math
 import numpy as np
+import pandas as pd
 
 
-def convert_lbs_to_int(pounds):
+def calc_cohens_d(x_1, x_2):
     """
-    Converts weight entry from a string ending in 'lbs' to an int
+    Calculates Cohens d standardized effect size between means of two columns of a DataFrame. 
+    Cohen's d is calculated as: (mean(x_1)-mean(x_2))/std(x_1, x_2)
     
     Parameters
     ----------
-    pounds: str
-        string likely ending in 'lbs' 
-    """    
-    if type(pounds) == str:
-        if pounds.endswith('lbs'):
-            return int(pounds[:-3])
-    elif np.isnan(pounds):
-        return
+    x_1: series
+        first sample
+    
+    x_2: series
+        second sample
+    """
+    return (x_1.mean()-x_2.mean())/np.concatenate([x_1,x_2]).std()
+
+
 
     
 def separate_band_and_cup(bust_size):
