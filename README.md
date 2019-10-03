@@ -27,7 +27,8 @@ Listed below are the companies where data was indirectly taken from.
 
 ### Dataset
 Downloaded user review data from [kaggle](https://www.kaggle.com/rmisra/clothing-fit-dataset-for-size-recommendation). 
-This data includes [Rent The Runway](https://www.renttherunway.com/) data and [ModCloth](https://www.modcloth.com/) data on user reviews, each in a separate file.
+Thanks to [Rishabh Misra](https://rishabhmisra.github.io/publications/) for the data! 
+This data includes [Rent The Runway](https://www.renttherunway.com/) data and [ModCloth](https://www.modcloth.com/) data on user reviews, each in a separate file. 
 
 Rent The Runway (RTR) data includes reviews from November 3, 2010 through January 8, 2018. 
 We do not have dates of reviews for ModCloth, but the reviews are from before August 21, 2018, when the dataset was uploaded to kaggle. 
